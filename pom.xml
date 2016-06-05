@@ -417,8 +417,7 @@
                             </dependency>
                         </dependencies>
                     </plugin>
-                </plugins>
-                <plugin>
+                    <plugin>
                         <groupId>org.codehaus.mojo</groupId>
                         <artifactId>cobertura-maven-plugin</artifactId>
                         <version>${cobertura.version}</version>
@@ -437,6 +436,7 @@
                         </executions>
                         </configuration>
                     </plugin>
+                </plugins>
             </build>
             <reporting>
                 <plugins>
